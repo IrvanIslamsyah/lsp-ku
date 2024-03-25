@@ -1,0 +1,223 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #31363F;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 120px;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+.navbar .menu {
+  padding: 10px;
+}
+
+.navbar .menu a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: 0.3s;
+}
+
+.navbar .menu a:hover {
+  background-color: grey;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.authentication {
+  display: flex;
+  align-items: center;
+
+}
+
+.authentication span {
+  margin-right: 10px;
+}
+
+.authentication a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.authentication .logout{
+  transition: 0.3s;
+}
+
+.authentication .logout:hover {
+  background-color: #e74c3c;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+/* jadwal.css */
+
+.list-tiket-pesawat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.wrapper-tiket-pesawat {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card-tiket-pesawat {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-tiket-pesawat:hover {
+  transform: scale(1.05);
+}
+
+.image {
+  text-align: center;
+}
+
+.image img {
+  border-radius: 20%;
+}
+
+.nama-maskapai {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.rute-penerbangan {
+  text-decoration: none;
+  font-size: 14px;
+  color: #777;
+  margin-top: 5px;
+}
+.waktu-berangkat {
+  margin-top: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #4f4f4f;
+}
+
+.text-harga {
+  font-size: 16px;
+  font-weight: bold;
+  color: #54c279;
+  margin-top: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* DETAIL */
+.list-tiket-pswt {
+  margin: auto;
+  padding: 15px;
+  border-radius: 10px;
+  width: 400px;
+  background-color: #31363F;
+  color: #fff;
+  text-align: center;
+}
+
+.wrapper-detail-tiket-pesawat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper-detail-tiket-pesawat img {
+  border-radius: 8px;
+}
+
+.label{
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px; /* Adjust the width as needed */
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #76ABAE;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: rgb(192, 192, 192);
+}

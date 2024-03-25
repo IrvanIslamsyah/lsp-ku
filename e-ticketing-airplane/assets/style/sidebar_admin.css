@@ -1,0 +1,41 @@
+
+/* Style untuk sidebar */
+.sidebar-admin {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    overflow: hidden;
+    font-size: 20px;
+    z-index: 1000; 
+    transition: width 0.3s ease; /* Tambahkan efek transisi */
+}
+
+.sidebar-admin a {
+    padding: 10px 0;
+    padding-left: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    transition: background-color 0.3s, padding-left 0.3s; /* Tambahkan efek transisi */
+}
+
+.sidebar-admin a:hover {
+    background-color: rgb(192, 192, 192);
+    border-radius: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 15px; /* Geser teks ke kiri saat dihover */
+}
+
+.sidebar-admin .logout{
+    background-color: red;
+}
+
+a.active{
+    border-radius: 20px;
+    background: grey;
+    color: white;
+}
